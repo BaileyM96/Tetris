@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles/styles.css">
     <title>Tetris</title>
 </head>
 <body>
@@ -19,8 +19,13 @@
                 <p>Score: <span id="score">0</span></p>
                 <p>Lines: <span id="lines">0</span></p>
                 <p>Levels: <span id="level">0</span></p>
+                <canvas id="next" class="next"></canvas>
             </div>
+            <button onclick="play()" class="play-button">Play</button>
         </div>
     </div>
 </body>
+<script type="text/javascript" src="./js/constants.js"></script>
+<script type="text/javascript" src="./js/board.js"></script>
+<script type="text/javascript" src="./js/main.js"></script>
 </html>

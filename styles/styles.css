@@ -1,26 +1,10 @@
-/* Create basic UI elements */
-
-/* Play area
-start button 
-use Flexbox and CSS grid
-*/
-
 * {
  font-family: 'Press Start 2P', cursive;
 };
 
 .grid {
-    display: flex;
-    flex-wrap: wrap;
-    width: 200px;
-    height: 400px;
-    background-color: yellow;
-}
-
-.grid div {
-    height: 20px;
-    width: 20px;
-    background-color: red;
+    display: grid;
+    grid-template-columns: 320px 200px;
 }
 
 .right-column {

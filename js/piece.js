@@ -4,7 +4,7 @@
 class Piece {
     constructor(ctx) {
         this.ctx = ctx;
-        this.color = 'blue';
+        this.color = 'red';
         this.shape = [
             [2,0,0],
             [2,2,2],

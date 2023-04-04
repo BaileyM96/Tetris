@@ -1,8 +1,11 @@
 class Board {
-        reset() {
+    constructor(ctx) {
+        this.ctx = ctx;
         this.grid = this.getEmptyBoard();
     }
-
+    reset() {
+        this.grid = this.getEmptyBoard();
+    }
     getEmptyBoard() {
         return Array.from(
             {length: ROWS}, () => Array(COLS).fill(0)
